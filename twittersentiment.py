@@ -2,7 +2,7 @@ from transformers import AutoTokenizer
 from transformers import AutoModelForSequenceClassification
 from scipy.special import softmax 
 
-tweet = input("Please enter the etx of a tweet to be analyzed with roBERTa: ")
+tweet = input("Please enter the text of a tweet to be analyzed with roBERTa: ")
 
 # pre-processed tweet
 tweet_words = []
